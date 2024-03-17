@@ -8,6 +8,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="arc"
+           fetch="https://github.com/TeamArcLine" 
+           revision="Urus"/>
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -1207,5 +1211,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/arc.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>

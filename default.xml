@@ -11,6 +11,10 @@
   <remote  name="arc"
            fetch="https://github.com/TeamArcLine" 
            revision="Urus"/>
+  
+  <remote  name="arc-gitlab"
+           fetch="https://gitlab.com/teamarcline"
+           revision="refs/heads/Urus" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"

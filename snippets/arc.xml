@@ -17,11 +17,12 @@
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arc" groups="pdk-fs" />
 <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="arc" />
 <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="arc" />
+<project path="packages/apps/ArcLab" name="android_packages_apps_ArcLab" remote="arc" />
 
 <project path="vendor/arcline" name="android_vendor_arcline" remote="arc"/>
 
 <project path="lineage-sdk" name="android_lineage-sdk" remote="arc"/>
 
-<project path="vendor/gms" name="android_vendor_gapps" groups="vendor" remote="arc-gitlab" clone-depth="1" />
+<project path="vendor/gms" name="android_vendor_gms" groups="vendor" remote="arc-gitlab" clone-depth="1" />
 
 </manifest>

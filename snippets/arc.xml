@@ -10,6 +10,9 @@
     <linkfile src="tools" dest="build/tools" />
 </project>
 
+<!-- ArcLine OS additions -->
+<project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="arc" />
+
 <project path="frameworks/av" name="android_frameworks_av" remote="arc" groups="pdk" />
 <project path="frameworks/base" name="android_frameworks_base" remote="arc" groups="pdk-cw-fs,pdk-fs" />
 

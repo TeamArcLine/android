@@ -8,8 +8,9 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+</project>
 
+<project path="frameworks/av" name="android_frameworks_av" remote="arc" groups="pdk" />
 <project path="frameworks/base" name="android_frameworks_base" remote="arc" groups="pdk-cw-fs,pdk-fs" />
 
 <project path="system/core" name="android_system_core" remote="arc" groups="pdk" />
